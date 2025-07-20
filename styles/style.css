@@ -1,0 +1,79 @@
+/* Colour scheme */
+
+:root {
+    --dark-background: #051621;
+    --button-primary: #03579d;
+    --button-seconday: #ff1414;
+    --text-color: #ffffff;
+    --text-color-dark: #00050e;
+}
+
+/* Global styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout */
+
+#container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1600px;
+}
+
+.tool-section {
+
+}
+
+#tool-box {
+    width: 350px;
+    height: 350px;
+    background-color: #efefef;
+    margin-bottom: 24px;
+}
+
+#board {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    background-color: #ffffff;
+}
+
+/*.grid {*/
+/*    flex-grow: 1;*/
+/*    flex-shrink: 1;*/
+/*    flex-basis: auto;*/
+/*}*/
+
+/* Buttons */
+.btn {
+    padding: 4px 10px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.reset {
+    background-color: var(--button-seconday);
+    color: var(--text-color);
+}
